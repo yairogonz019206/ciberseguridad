@@ -4,7 +4,7 @@ from utilidades import comprobar_numero
 contrasena = "Hola1234"
 
 def comprobar_longitud(contrasena):
-    if len(contrasena) >= 8:
+    if len(contrasena) >= 12:
         return True
     else:
         return False
