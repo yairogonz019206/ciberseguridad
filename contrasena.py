@@ -1,4 +1,6 @@
 
+from utilidades import comprobar_numero
+
 contrasena = "Hola1234"
 
 def comprobar_longitud(contrasena):
@@ -8,3 +10,4 @@ def comprobar_longitud(contrasena):
         return False
 
 print(comprobar_longitud(contrasena))
+print(comprobar_numero(contrasena))
