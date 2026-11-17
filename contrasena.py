@@ -4,11 +4,10 @@ from utilidades import comprobar_numero
 contrasena = "Hola1234"
 
 def comprobar_longitud(contrasena):
-    if len(contrasena) >= 10:
+    if len(contrasena) >= 12:
         return True
     else:
         return False
-
 def comprobar_mayuscula(contrasena):
     for caracter in contrasena:
         if caracter.isupper():
